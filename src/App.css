@@ -1,0 +1,58 @@
+.fa {
+  cursor: pointer;
+}
+
+.app {
+  width: 100%;
+  text-align: center;
+}
+
+.app-header {
+  border-bottom: 1px solid #e4e4e4;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+.app-header > * {
+  display: inline-block;
+  color: #c8c8c8;
+}
+.app-header h2 {
+  margin-bottom: 2px;
+  color: #ff4f4f;
+  width: calc(100% - 74px);
+  text-align: center;
+}
+
+.app-options {
+  display: inline-block;
+  margin-top: 12px;
+}
+.button {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 50%;
+  border: 6px solid #e4e4e4;
+  float: left;
+  cursor: pointer;
+}
+.button:hover, .button:active {
+  border-color: #bdbdbd;
+}
+
+.btn-like, .btn-dislike {
+  height: 48px;
+  width: 48px;
+  padding: 15px;
+}
+.btn-refresh {
+  color: #ffc34d;
+}
+.btn-dislike {
+  color: #ff6767;
+}
+.btn-like {
+  color: #4ccc92;
+}
+.btn-fav {
+  color: #14aac3;
+}
